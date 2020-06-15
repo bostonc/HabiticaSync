@@ -3,9 +3,12 @@ Web application designed to sync Habitica ToDos and Google Reminders
 
 See the original Glitch app here: https://glitch.com/~habitica-py
 
+By Chris Boston
+===============
+
 
 Welcome to the Gomix BETA (Flask / Python Edition™)
-===================================================
+---------------------------------------------------
 
 Click `"Show"` in the header to see your app live. Updates to your code will instantly deploy and update live.
 
@@ -27,6 +30,5 @@ On the front-end,
 - drag in `assets`, like images or music, to add them to your project
 
 
-A Kenneth Reitz Project™ (inspired by Fog Creek)
-----------------------------------------------
+Based on A Kenneth Reitz Project™ (inspired by Fog Creek)
 
