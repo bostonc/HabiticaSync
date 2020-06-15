@@ -1,0 +1,141 @@
+/* styles */
+/* called by your view template */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: helvetica, arial, sans-serif;
+  background-color: #eceaed;
+  margin: 25px;
+}
+
+.centered_body {
+  margin-left: auto;
+  margin-right: auto;
+  width: 30%;
+  display: block;
+  min-width: 350px;
+  max-width: 5000px;
+}
+
+.center {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+#intro_p {
+  font-size: 16px;
+}
+
+#donation_form {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+  text-align: center;
+}
+
+.centerblock {
+  margin-left: auto;
+  margin-right: auto;
+  width: 40%;
+  text-align: center;
+  /*display: block;*/
+}
+
+#welcome_table {
+  margin-top: 10px; 
+  margin-bottom: 15px;
+  width: 100%;
+  display: none;
+}
+
+h1 {
+  font-weight: bold;
+  color: purple;
+}
+
+.bold {
+  font-weight: bold;
+}
+
+p {
+  max-width: 600px;
+}
+
+.greybox {
+  margin-bottom: 25px;
+  margin-top: 25px;
+  padding: 15px;
+  background-color: lightgrey;
+  border: 1px solid grey;
+  display: block;
+  width: 100%;
+  max-width: 400px;
+  border-radius: 3px;
+  text-align: left;
+}
+
+.grey_input, select {
+  display: block;
+  margin-bottom: 10px;
+  padding: 5px;
+  width: 100%;
+  border: 1px solid lightgrey;
+  border-radius: 3px;
+  font-size: 14px;
+}
+
+button {
+  font-size: 18px;
+  border-radius: 3px;
+  background-color: purple;
+  color: white;
+  border: 1px solid grey;
+  cursor: pointer;
+  margin-left: auto;
+  margin-right: auto;
+  display: block;
+}
+
+.centered {
+  margin-left: auto;
+  margin-right: auto;
+  /*display: block; */
+  width: 50%;
+  text-align: center;
+}
+
+button:hover {
+  background-color: #9900cc;
+}
+
+button:active {
+  box-shadow: none;
+}
+
+li {
+  margin-bottom: 5px;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 25px;
+  border-top: 1px solid lightgrey;
+  text-align: center;
+}
+
+footer > a {
+  color: #BBBBBB;
+}
+
+header {
+  text-align: center;
+}
+
+.nicejob {
+  text-decoration: line-through;
+}
